@@ -7,8 +7,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Multidots",
-            "homepage": "http://www.multidots.com",
+            "name": "Pejonic",
+            "homepage": "",
             "role": "Author"
         },
         {
@@ -17,8 +17,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/multidots/cakephp-rest-api/issues",
-        "source": "https://github.com/multidots/cakephp-rest-api"
+        "issues": "https://github.com/pejonic/cakephp-rest-api/issues",
+        "source": "https://github.com/pejonic/cakephp-rest-api"
     },
     "require": {
         "php": ">=5.5.9",
