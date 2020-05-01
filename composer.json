@@ -1,0 +1,42 @@
+{
+    "name": "multidots/cakephp-rest-api",
+    "description": "CakePHP 3 plugin to provide basic support for building REST API services",
+    "keywords": ["cakephp", "rest", "api"],
+    "type": "cakephp-plugin",
+    "homepage": "https://github.com/cakephp/debug_kit",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Multidots",
+            "homepage": "http://www.multidots.com",
+            "role": "Author"
+        },
+        {
+            "name": "Community",
+            "homepage": "https://github.com/multidots/cakephp-rest-api/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/multidots/cakephp-rest-api/issues",
+        "source": "https://github.com/multidots/cakephp-rest-api"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": ">=3.3.2 <4.0.0"
+    },
+    "require-dev": {
+        "cakephp/cakephp-codesniffer": "dev-master",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RestApi\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RestApi\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
