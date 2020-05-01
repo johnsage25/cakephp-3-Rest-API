@@ -1,5 +1,5 @@
 {
-    "name": "pejonic/cakephp-3-Rest-API",
+    "name": "pejonic/cakephp-3-rest-api",
     "description": "CakePHP 3 plugin to provide basic support for building REST API services",
     "keywords": ["cakephp", "rest", "api"],
     "type": "cakephp-plugin",
