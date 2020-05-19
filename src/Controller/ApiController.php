@@ -20,7 +20,7 @@ class ApiController extends AppController
      */
     public function beforeRender(Event $event)
     {
-        $this->viewBuilder()->className('RestApi.Api');
+        $this->viewBuilder()->getClassName('RestApi.Api');
 
         parent::beforeRender($event);
     }
