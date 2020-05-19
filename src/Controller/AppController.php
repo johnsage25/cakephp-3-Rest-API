@@ -57,7 +57,7 @@ class AppController extends Controller
     {
         parent::beforeFilter($event);
 
-        if ('OPTIONS' === $this->request->method()) {
+        if ('OPTIONS' === $this->request->getMethod()) {
             $this->response->statusCode(200);
 
             return $this->response;
@@ -111,7 +111,7 @@ class AppController extends Controller
      */
     private function _buildResponse()
     {
-        $this->response->type('json');
+        $this->response->withType('json');
 
         if (Configure::read('ApiRequest.cors.enabled')) {
             $this->response->cors($this->request)
