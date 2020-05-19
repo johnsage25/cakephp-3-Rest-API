@@ -252,4 +252,4 @@ And the response will be,
 {"status":"NOK","result":{"message":"Not Found"}}
 ```
 ## Reporting Issues
-If you have a problem with this plugin or any bug, please open an issue on [GitHub](https://github.com/multidots/cakephp-rest-api/issues).
+If you have a problem with this plugin or any bug, please open an issue on [GitHub](https://github.com/pejonic/cakephp-3-Rest-API/issues).
